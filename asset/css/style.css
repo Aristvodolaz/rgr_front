@@ -21,27 +21,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*container*/
 .container {
-    
-    max-width: 1400px;
-    margin: 0 auto;
+
+    width: 100%;
+    max-width: 1255px;
+    margin: 0 auto ;
 }
 
 /*intro*/
 .intro {
     display: block;
-    width:100%;
-    height: 112vh;
+    padding: 0px 0px 850px 0px;
+    position: relative;
     background: url("../images/intro.jpg") center no-repeat;
     background-size: cover;
+    margin: 0 auto;
 }
-.intro_2 {
-    display: block;
-    width: 100%;
-    height: 112vh;
-    background: url("../images/intro_2.jpg") center no-repeat;
-    background-size: cover;
-}
+
+
 .title_info {
+    padding: 500px 0 0 0 ;
     width: 596px;
     height: 145px;
     position: absolute;
@@ -51,35 +49,72 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: initial;
     color:#484f5b;
 
-    top: 430px;
-    right: 70px;
+
+    left: 785px;
 
 
     line-height: 1.6;
 }
  .intro_title {
+    padding: 290px 0 0 0 ;
     width: 630px;
-    height: 777px;
+    height: 500px;
     position: absolute;
     padding-right: 80px;
-    top: 220px;
-    right: 38px;
+
+
     font-size : 72px;
     font-weight: 600;
     text-transform: inherit;
 
+    left: 785px;
+
     line-height: 1.1;
     letter-spacing: 2.5px;
-    margin-bottom: 55px;
+    
+}
+.title_info_2 {
+    padding: 410px 0 0 0 ;
+    width: 596px;
+    height: 145px;
+    position: absolute;
+    padding-right: 40px;
+    font-size: 21px;
+    font-weight: 150;
+    text-transform: initial;
+    color:#484f5b;
+
+
+    left: 93px;
+
+
+    line-height: 1.6;
+}
+.title_2 {
+    padding: 180px 0 0 0 ;
+    width: 625px;
+    height: 500px;
+    position: absolute;
+    word-wrap: normal;
+   
+
+    font-size : 72px;
+    font-weight: 600;
+    text-transform: inherit;
+
+    left: 93px;
+
+    line-height: 1.1;
+    letter-spacing: 2.5px;
 }
 /* header */
 .header {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
     position: absolute;
     top: 10;
     left: 0;
-    right: 0;
+    right: 10;
     z-index: 1000;
     
 }
@@ -91,6 +126,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 103px;
     height: 93px;
     
+    margin-left: -10px;
     margin-top: -10px;
 }
 
@@ -103,17 +139,17 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     position: absolute;
     display: block;
-    top: 150px;
+    top: 200px;
     display: block;
     width:615px;
     height: 595px;
-    background-image: url(../images/images/girl.png);
+    background-image: url(../images/girl.png);
 }
 
 /* NAV */
 .nav {
     font-size: 15px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 100;
 }
 
@@ -121,9 +157,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 10px;
     display: inline-block;
     vertical-align: middle;
-    margin: 0 20px;
+    margin: 0 35px;
     color: #484f5b;
     text-decoration: none;
+    margin-right: 30px;
 
     transition: color 0.2s linear;
 }
@@ -134,9 +171,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Button*/
 .btn_position {
+    padding: 1248px 0 0 0 ;
     position: absolute;
-    margin-top: 1070px;
-    margin-left: 783px;
+    left: 785px;
+}
+.btn_position_2 {
+    padding: 2870px 0 0 0 ;
+    position: absolute;
+    left: 93px;
 }
 .button{
     text-decoration:none; text-align:center; 
@@ -201,3 +243,55 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow:0px 0px 2px #e0d8d7, inset 0px 0px 1px #ffffff;  
      
     }
+
+    /* Section */
+    .section {
+        padding: 177px 0 0 0; 
+        display: block;
+        padding: 0 0 800px 0;
+        position: relative;
+        background: url("../images/intro_2.jpg") center no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    .section_header {
+
+        width: 100%;
+        max-width: 1205px;
+        margin: 0 auto 40px;
+    }
+
+    /*gimnastika*/
+    .gimnastika {
+        padding: 80px 0 0 0 ;
+        display: block;
+        padding:0 0 477px 0;
+        position: relative;
+        background: url("../images/intro_3.jpg") center no-repeat;
+        background-size: cover;
+        margin: 0 ;
+    }
+    .gim {
+        text-align: center;
+        font-size: 15px;
+        text-transform: lowercase;
+        font-weight: 100;
+    }
+    .nav_link_3 {
+        margin-top: 310px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 40px;
+        color: #484f5b;
+        text-decoration: none;
+        hyphenate-character: 6 3 2;
+        
+        text-align: center;
+        
+        padding-top: 310px;
+
+        overflow: hidden;
+        transition: color 0.2s linear;
+    }
+ 
