@@ -160,8 +160,10 @@ h1 {
     left: 103px;
 }
 .button{
+    width: 200px;
+    height: 50px;
     text-decoration:none; text-align:center; 
-    padding:8px 30px; 
+    padding:20px 50px; 
     border:solid 1px #e6c8c3; 
      
     font:13px "Noto Sans", Gadget, sans-serif; 
