@@ -39,10 +39,18 @@ h1 {
 
     width: 100%;
     max-width: 1255px;
-
+    height:800px;
     margin: 0 auto ;
    
 
+}
+
+.container_3 {
+    width: 100%;
+    max-width: 1255px;
+    
+    margin: 0 auto ;
+   
 }
 .container_1    {
     margin: 0 auto;
@@ -52,13 +60,15 @@ h1 {
     flex-direction: row;
     justify-content: center;
     
-
+    max-height:800px;
     max-width: 1255px;
     width: 100%;
  
     
 }
 
+
+/*BOX P*/
 .box_2 p {
     margin-top: 20px;
     letter-spacing: 0.15px;
@@ -79,7 +89,7 @@ h1 {
     background: url("../images/intro.jpg") center no-repeat;
     background-size: cover;
     margin: 0 auto;
-    height: 777px;
+    height: 894px;
 }
 
 
@@ -123,6 +133,7 @@ h1 {
     right: 822px;
 }
 
+    
 /* NAV */
 .nav {
     font-size: 22px;
@@ -150,23 +161,30 @@ h1 {
 
 /* Button*/
 .btn_position {
-    padding: 1290px 0 0 0 ;
+    padding: 1295px 0 0 0 ;
     position: absolute;
-    right: 525px;
+    right:470px;
+   
 }
 .btn_position_2 {
-    padding: 2870px 0 0 0 ;
+    padding: 2880px 0 0 0 ;
     position: absolute;
     left: 103px;
 }
 .button{
+<<<<<<< HEAD
     width: 200px;
     height: 50px;
     text-decoration:none; text-align:center; 
     padding:20px 50px; 
+=======
+
+    text-decoration:none; text-align:center; 
+    padding:8px 36px; 
+>>>>>>> 67296a563ef30e20789a3b19a346f927c7ad9de0
     border:solid 1px #e6c8c3; 
      
-    font:13px "Noto Sans", Gadget, sans-serif; 
+    font:20px "Noto Sans", Gadget, sans-serif; 
     font-weight:bold; 
     color:#484f5b; 
     background-color:#e6c8c3; 
@@ -186,10 +204,10 @@ h1 {
     transition:  all 0.02s ease-in;}
     
     .button:hover{
-    padding:8px 30px; 
+    padding:16px 60px; 
     border:solid 1px #e6c8c3; 
      
-    font:13px "Noto Sans", Gadget, sans-serif; 
+    font:16px "Noto Sans", Gadget, sans-serif; 
     font-weight:bold; 
     color:#484f5b; 
     background-color:#e6c8c3; 
@@ -206,7 +224,7 @@ h1 {
     
     }
     .button:active{
-    padding:8px 30px; 
+    padding:16px 60px; 
     border:solid 1px #cfc8c7; 
      
     font:13px "Noto Sans", Gadget, sans-serif; 
@@ -231,34 +249,24 @@ h1 {
         background: url("../images/intro_2.jpg") center no-repeat;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 800px;
+        height: 806px;
     }
+
+    /* BOX*/
     .box_1 {
         max-width: 600px;
         
         padding: 0;
         position: absolute;
         right: 105px;
-        /*margin-left: 93px;*/
-        top: 198px;
     
-        /*padding: 500px 0 0 0 ;
-        width: 596px;
-        height: 145px;
-        
-        padding-right: 40px;*/
-
+        top: 198px;
         
         font-size: 21px;
         font-weight: 150;
     
         color:#484f5b;
-    
-    
-       /* left: 785px;*/
-    
-    
-       
+     
     }
     
 .box_2 {
@@ -268,20 +276,12 @@ h1 {
     position: absolute;
     left: 100px;
  
-    top: 992px;
+    top: 981px;
 
-    /*padding: 500px 0 0 0 ;
-    width: 596px;
-    height: 145px;
-    
-    padding-right: 40px;*/
     font-size: 21px;
     font-weight: 150;
 
     color:#484f5b;
-
-
-   /* left: 785px;*/
 
     line-height: 1.6;
 }
@@ -305,11 +305,12 @@ h1 {
         text-align: center;
     }
 
+    /* YOGA FLEX*/
     .class_box_yoga {
         display: flex;
         flex: wrap;
         justify-content: space-between;
-        margin-top: 260px;
+        margin-top: 210px;
         align-items: center ;
         text-align: center;
     }
