@@ -133,7 +133,13 @@ h1 {
     right: 822px;
 }
 
-    
+.fa_ul {
+    position: absolute;
+    left: -69px;
+    width: 50px;
+    top: 30px;
+    text-align: center;
+}
 /* NAV */
 .nav {
     font-size: 22px;
